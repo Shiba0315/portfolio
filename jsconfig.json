@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "paths": {
+      // Configure path mapping for cleaner imports using @ alias
       "@/*": ["./src/*"]
     }
   }
