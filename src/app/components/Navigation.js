@@ -20,11 +20,13 @@ export default function Navigation() {
         return (
           <li key={item.href}>
             <Link href={item.href}>
-              <span className={`px-2 sm:px-3 lg:px-4 py-1 sm:py-2 rounded-full cursor-pointer transition-all duration-200 text-sm sm:text-base ${
-                isActive
-                  ? "bg-teal-500 text-white shadow-md font-medium"
-                  : "text-gray-700 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-400 hover:bg-gray-200 dark:hover:bg-gray-700"
-              }`}>
+              <span
+                className={`px-2 sm:px-3 lg:px-4 py-1 sm:py-2 rounded-full cursor-pointer transition-all duration-200 text-sm sm:text-base ${
+                  isActive
+                    ? "bg-teal-500 text-white shadow-md font-medium"
+                    : "text-gray-700 dark:text-gray-300 hover:text-teal-500 dark:hover:text-teal-400 hover:bg-gray-200 dark:hover:bg-gray-700"
+                }`}
+              >
                 {item.label}
               </span>
             </Link>
@@ -33,4 +35,4 @@ export default function Navigation() {
       })}
     </ul>
   );
-} 
+}

@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { useTheme } from '../context/ThemeContext';
-import { useEffect, useState } from 'react';
+import { useTheme } from "../context/ThemeContext";
+import { useEffect, useState } from "react";
 
 export default function ThemeToggle() {
   const { isDarkMode, toggleTheme, mounted } = useTheme();
@@ -13,7 +13,10 @@ export default function ThemeToggle() {
 
   const handleClick = () => {
     if (mounted && isClient) {
-      console.log('ThemeToggle: Switching theme from:', isDarkMode ? 'dark' : 'light');
+      console.log(
+        "ThemeToggle: Switching theme from:",
+        isDarkMode ? "dark" : "light",
+      );
       toggleTheme();
     }
   };
@@ -35,7 +38,7 @@ export default function ThemeToggle() {
     <button
       onClick={handleClick}
       className="w-10 h-10 flex items-center justify-center bg-gray-200 dark:bg-gray-700 rounded-full shadow-md hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-200"
-      aria-label={isDarkMode ? 'Switch to light mode' : 'Switch to dark mode'}
+      aria-label={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
     >
       {isDarkMode ? (
         <span role="img" aria-label="Sun" className="text-yellow-500 text-lg">
@@ -48,4 +51,4 @@ export default function ThemeToggle() {
       )}
     </button>
   );
-} 
+}

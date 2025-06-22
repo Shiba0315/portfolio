@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 // Next.js configuration file for customizing build and runtime behavior
 const nextConfig = {
-  output: 'export',
-  basePath: '/portfolio',
+  output: "export",
+  basePath: "/portfolio",
+  assetPrefix: "/portfolio/",
   images: {
     unoptimized: true,
   },

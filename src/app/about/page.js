@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -6,12 +6,22 @@ export default function About() {
       {/* Header */}
       <section className="pt-20 pb-12 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <Link 
-            href="/" 
+          <Link
+            href="/"
             className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 mb-8"
           >
-            <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            <svg
+              className="w-5 h-5 mr-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M15 19l-7-7 7-7"
+              />
             </svg>
             Back to Home
           </Link>
@@ -39,21 +49,23 @@ export default function About() {
                   Kotaro Shiba
                 </h2>
                 <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-                  I&apos;m a passionate Computer Science student at Ensign College, dedicated to learning and creating innovative web solutions. 
-                  My journey in technology began with a curiosity about how things work on the internet, and it has evolved into a deep 
-                  passion for web development and software engineering.
+                  I&apos;m a passionate Computer Science student at Ensign
+                  College, dedicated to learning and creating innovative web
+                  solutions. My journey in technology began with a curiosity
+                  about how things work on the internet, and it has evolved into
+                  a deep passion for web development and software engineering.
                 </p>
                 <div className="flex space-x-4">
-                  <a 
-                    href="https://github.com/Shiba0315" 
-                    target="_blank" 
+                  <a
+                    href="https://github.com/Shiba0315"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300"
                   >
                     GitHub
                   </a>
-                  <a 
-                    href="mailto:kotaro.shiba@example.com" 
+                  <a
+                    href="mailto:kotaro.shiba@example.com"
                     className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300"
                   >
                     Email
@@ -80,8 +92,9 @@ export default function About() {
                   2023 - Present
                 </p>
                 <p className="text-gray-600 dark:text-gray-400 mt-2">
-                  Currently pursuing a degree in Computer Science with focus on web development, 
-                  algorithms, and software engineering principles.
+                  Currently pursuing a degree in Computer Science with focus on
+                  web development, algorithms, and software engineering
+                  principles.
                 </p>
               </div>
             </div>
@@ -137,7 +150,8 @@ export default function About() {
                     Master Full-Stack Development
                   </h4>
                   <p className="text-gray-600 dark:text-gray-400">
-                    Develop expertise in both frontend and backend technologies to create complete web applications.
+                    Develop expertise in both frontend and backend technologies
+                    to create complete web applications.
                   </p>
                 </div>
               </div>
@@ -150,7 +164,8 @@ export default function About() {
                     Contribute to Open Source
                   </h4>
                   <p className="text-gray-600 dark:text-gray-400">
-                    Give back to the developer community by contributing to meaningful open source projects.
+                    Give back to the developer community by contributing to
+                    meaningful open source projects.
                   </p>
                 </div>
               </div>
@@ -163,7 +178,8 @@ export default function About() {
                     Build Innovative Solutions
                   </h4>
                   <p className="text-gray-600 dark:text-gray-400">
-                    Create applications that solve real-world problems and improve people&apos;s lives.
+                    Create applications that solve real-world problems and
+                    improve people&apos;s lives.
                   </p>
                 </div>
               </div>

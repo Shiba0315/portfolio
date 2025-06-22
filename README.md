@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+
 # Kotaro Shiba - Personal Portfolio
 
 Welcome to my personal portfolio website! This is a modern, responsive portfolio built with Next.js and Tailwind CSS, showcasing my skills, projects, and experience as a Computer Science student and web developer.
@@ -33,17 +34,20 @@ Visit my portfolio: [https://shiba0315.github.io/portfolio](https://shiba0315.gi
 ### Getting Started
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/Shiba0315/portfolio.git
    cd portfolio
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Run the development server**
+
    ```bash
    npm run dev
    ```
@@ -78,11 +82,13 @@ This portfolio is deployed using GitHub Pages. The deployment is automated using
 ### Manual Deployment Steps
 
 1. **Build the project**
+
    ```bash
    npm run build
    ```
 
 2. **Export static files**
+
    ```bash
    npm run export
    ```
@@ -95,6 +101,7 @@ This portfolio is deployed using GitHub Pages. The deployment is automated using
 ## 📝 Customization
 
 ### Personal Information
+
 Update the following files to customize the portfolio for your needs:
 
 - `src/app/page.js` - Home page content
@@ -103,6 +110,7 @@ Update the following files to customize the portfolio for your needs:
 - `src/app/layout.js` - Site metadata and navigation
 
 ### Styling
+
 - Modify `src/app/globals.css` for custom styles
 - Update Tailwind classes in components for design changes
 - Customize colors in `tailwind.config.js`
@@ -127,8 +135,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Thank you for visiting my portfolio!** 🎉
-=======
+# **Thank you for visiting my portfolio!** 🎉
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -165,4 +173,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
->>>>>>> 5c1bc5c3271d7d77add359320b4b5421ad3ce358
+
+> > > > > > > 5c1bc5c3271d7d77add359320b4b5421ad3ce358
