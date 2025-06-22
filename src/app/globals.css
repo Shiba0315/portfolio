@@ -3,31 +3,20 @@
 @tailwind utilities;
 
 :root {
-<<<<<<< HEAD
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-=======
-  --background: #ffffff;
-  --foreground: #171717;
->>>>>>> 5c1bc5c3271d7d77add359320b4b5421ad3ce358
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-<<<<<<< HEAD
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
-=======
-    --background: #0a0a0a;
-    --foreground: #ededed;
->>>>>>> 5c1bc5c3271d7d77add359320b4b5421ad3ce358
   }
 }
 
 body {
-<<<<<<< HEAD
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -40,88 +29,5 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
-=======
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Custom scrollbar styling for better user experience */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #10b981, #059669);
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(to bottom, #059669, #047857);
-}
-
-/* Apply smooth transitions to all elements for better visual feedback */
-* {
-  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
-}
-
-/* Custom floating animation for interactive elements */
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-}
-
-.animate-float {
-  animation: float 3s ease-in-out infinite;
-}
-
-/* Glass morphism effect for modern UI components */
-.glass {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.dark .glass {
-  background: rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-/* Animated gradient text effect */
-@keyframes gradient-shift {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-.animate-gradient {
-  background-size: 200% 200%;
-  animation: gradient-shift 3s ease infinite;
-}
-
-/* Fade in up animation for project cards */
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(50px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
->>>>>>> 5c1bc5c3271d7d77add359320b4b5421ad3ce358
   }
 }
