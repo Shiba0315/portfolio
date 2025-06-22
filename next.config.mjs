@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // get env variable
 import dotenv from 'dotenv';
 
@@ -19,5 +20,10 @@ const nextConfigProd = {
 const nextConfigDev = {};
 
 const nextConfig = env === 'development' ? nextConfigDev : nextConfigProd;
+=======
+/** @type {import('next').NextConfig} */
+// Next.js configuration file for customizing build and runtime behavior
+const nextConfig = {};
+>>>>>>> 5c1bc5c3271d7d77add359320b4b5421ad3ce358
 
 export default nextConfig;
