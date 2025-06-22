@@ -47,14 +47,14 @@ export default function UsesPage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
             <div className="bg-white dark:bg-gray-800 rounded-xl p-6 sm:p-8 shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all duration-300">
-              <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 dark:text-white mb-3">MacBook Pro 14" M1 Pro</h3>
+              <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 dark:text-white mb-3">MacBook Pro 14&quot; M1 Pro</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">My primary development machine with 16GB RAM and 512GB SSD. The M1 chip provides incredible performance for all my development tasks.</p>
               <div className="flex items-center text-sm text-gray-500 dark:text-gray-400">
                 <span className="bg-teal-100 dark:bg-teal-900 text-teal-800 dark:text-teal-200 px-2 py-1 rounded-full">Primary</span>
               </div>
             </div>
             <div className="bg-white dark:bg-gray-800 rounded-xl p-6 sm:p-8 shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all duration-300">
-              <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 dark:text-white mb-3">Dell UltraSharp 27" 4K</h3>
+              <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 dark:text-white mb-3">Dell UltraSharp 27&quot; 4K</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">External monitor for additional screen real estate. Perfect for code reviews and design work.</p>
               <div className="flex items-center text-sm text-gray-500 dark:text-gray-400">
                 <span className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded-full">External</span>
@@ -220,10 +220,10 @@ export default function UsesPage() {
             </div>
             <div className="bg-white dark:bg-gray-800 rounded-xl p-6 sm:p-8 shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all duration-300">
               <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 dark:text-white mb-3">Dark Reader</h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-4">Automatically applies dark mode to websites that don't have it built-in.</p>
+              <p className="text-gray-600 dark:text-gray-300 mb-4">Automatically applies dark mode to websites that don&apos;t have it built-in.</p>
               <div className="flex flex-wrap gap-2">
                 <span className="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-2 py-1 rounded-full text-sm">Accessibility</span>
-                <span className="bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 px-2 py-1 rounded-full text-sm">UX</span>
+                <span className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded-full text-sm">Productivity</span>
               </div>
             </div>
           </div>
